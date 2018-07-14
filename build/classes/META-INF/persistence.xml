@@ -12,7 +12,7 @@
             <!-- Default database login using Oracle for EclipseLink's internal connection pool,
                  change this to access your own database. -->
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://mytrips81.coizdbobchof.us-east-1.rds.amazonaws.com:3306/travel1" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://mytrips81.coizdbobchof.us-east-1.rds.amazonaws.com:3306/travel1?useLegacyDatetimeCode=false&amp;serverTimezone=Asia/Jerusalem&amp;useSSL=false" />
             <property name="javax.persistence.jdbc.user" value="ilia" />
             <property name="javax.persistence.jdbc.password" value="rds8811a" />
 		</properties>
